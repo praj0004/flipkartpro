@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --theme: coral;
+
+        }
+
+        .hero {
+            background-image: url(asset/image/john-main/bg.svg);
+            background-size: cover;
+            background-position: left bottom;
+            height: 100vh;
+
+        }
+
+        .hero-img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            height: 100vh;
+        }
+
+        .hero-content h1 {
+            color: white;
+        }
+
+        .hero-content p {
+            color: rgb(207, 202, 202);
+            width: 35%;
+        }
+
+
+        .skills {
+            width: 80%;
+            margin: 5rem auto;
+
+        }
+
+        .progress {
+            background-color: #eee;
+            height: 2rem;
+            margin: 3rem 0;
+        }
+
+        .progress-bar {
+            background-color: var(--theme);
+            width: 75%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .navbar {
+            display: flex;
+            background-color: coral;
+            justify-content: space-between;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+
+            /* u can also add hight */
+        }
+
+        .navbar a {
+            text-decoration: none;
+            font-size: 1.5rem;
+            color: navy;
+        }
+
+
+        .html {
+            width: 75%;
+        }
+
+        .css {
+            width: 60%;
+        }
+
+        .card {
+            width: 25%;
+            border: solid gray;
+        }
+
+        .card-headeer img {
+            max-width: 100%;
+        }
+
+        .card-body {
+            padding: 2rem;
+        }
+
+        .caontainer {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero">
+
+        <img class="hero-img" src="asset/image/john-main/bg-dots.svg" alt="">
+        <img class="hero-img" src="asset/image/john-main/user.png" alt="">
+        <div class="hero-content">
+            <h1>hi my name is john</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequatur quia architecto quibusdam
+                aspernatur saepe exercitationem illo voluptate voluptatibus excepturi odio provident, sunt atque animi
+                quas nemo. At, harum doloribus?</p>
+            <a href="">hire me</a>
+
+        </div>
+
+    </div>
+    <div class="navbar">
+        <a class="brand" href="">John</a>
+        <a href="">Home</a>
+        <a href="">Education</a>
+        <a href="">Projects</a>
+        <a href="">Experience</a>
+        <a href="">Contact</a>
+    </div>
+    <div class="progress">
+
+        <div class="progress-bar">HTML</div>
+    </div>
+    <div class="progress">
+
+        <div class="progress-bar">css</div>
+    </div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar">js</div>
+    </div>
+    <div class="progress">
+        <div class="progress-bar">react</div>
+    </div>
+    <div>
+
+
+        <div class="flex">
+
+        </div>
+        <div class="container">
+
+        </div>
+        <div class="card">
+            <div class="card headr">
+
+            </div>
+        </div>
+        <div class="skills">
+
+        </div>
+        <div style="height: 5000px;"></div>
+
+</body>
+
+</html>
